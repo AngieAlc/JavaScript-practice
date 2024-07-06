@@ -1,0 +1,57 @@
+body {
+    background-image: url("images/sad.jpeg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: Cantarell;
+    font-weight: bold;
+    text-align: center;
+    color: white; 
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increment-btn {
+    background: rgb(84, 23, 80);
+}
+#increment-btn:hover{
+    background: rgb(84, 23, 80, 0.7);
+    transition: 0.3s; 
+}
+#save-btn {
+    background: darkgreen;
+}
+#save-btn:hover{
+    background: rgb(0, 100, 0, 0.7);
+    transition: 0.3s; 
+}
+#save-el{
+    font-size: 30px;
+}
+.container{
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto; 
+}
